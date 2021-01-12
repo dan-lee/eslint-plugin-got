@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-got",
+  "version": "0.0.1",
+  "description": "eslint rules for got",
+  "main": "index.js",
+  "author": "dan-lee",
+  "license": "MIT",
+  "scripts": {
+    "test": "node rules/no-leading.slash.test.js"
+  },
+  "devDependencies": {
+    "eslint": "7.17.0",
+    "prettier": "2.2.1"
+  },
+  "keywords": [
+    "ky",
+    "got",
+    "ky-universal",
+    "path",
+    "input",
+    "leading-slash"
+  ],
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
